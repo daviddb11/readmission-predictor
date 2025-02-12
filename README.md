@@ -10,11 +10,10 @@ Este proyecto tiene como objetivo predecir si un paciente diabético, al que se 
 
 Los datos se pueden encontrar en [UCI ML Repository](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008). Clore, J., Cios, K., DeShazo, J., & Strack, B. (2014). *Diabetes 130-US Hospitals for Years 1999-2008* [Dataset]. UCI Machine Learning Repository. [https://doi.org/10.24432/C5230J](https://doi.org/10.24432/C5230J).
 
-Los datos con los que estamos trabajando en este proyecto no son de la mejor calidad, pues se incluyen valores faltantes, características irrelevantes y datos inconsistentes. Esto es así pues el tratamiento de datos complejos también forma parte del desarrollo del proyecyo. Además, incluye tanto valores numéricos como categóricos. Por lo tanto, uno de los principales objetivos de este proyecto es realizar un tratamiento completo de los datos.
-
+Los datos con los que estamos trabajando en este proyecto no son de la mejor calidad, pues se incluyen valores faltantes, características irrelevantes y datos inconsistentes. Además, incluye tanto valores numéricos como categóricos. Esto es así pues el tratamiento de datos complejos también forma parte del desarrollo del proyecto. 
 ## Estructura
 
-**'readmpred.ipynb'**
+`readmpred.ipynb`
 
 En este notebook se desarrolla todo el proyecto, el cual está organizado en las siguientes secciones:
 
