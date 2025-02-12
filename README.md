@@ -27,7 +27,8 @@ En este notebook se desarrolla todo el proyecto, el cual está organizado en las
   - **Métodos de envoltura (RFE)**: Selección de características basada en la importancia y rendimiento de cada una en los modelos.
 
 - **Entrenamiento y elección del mejor modelo**:
-  - Se entrenan y comparan los siguientes modelos:
+Se entrenan y comparan los siguientes modelos:
+    
     - **Logistic Regression Multinomial**.
     - **Random Forest**.
     - **Decision Trees**.
