@@ -10,7 +10,9 @@ Este proyecto tiene como objetivo predecir si un paciente diabético, al que se 
 
 Los datos se pueden encontrar en [UCI ML Repository](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008). Clore, J., Cios, K., DeShazo, J., & Strack, B. (2014). *Diabetes 130-US Hospitals for Years 1999-2008* [Dataset]. UCI Machine Learning Repository. [https://doi.org/10.24432/C5230J](https://doi.org/10.24432/C5230J).
 
-Los datos con los que estamos trabajando en este proyecto no son de la mejor calidad, pues se incluyen valores faltantes, características irrelevantes y datos inconsistentes. Además, incluye tanto valores numéricos como categóricos. Esto es así pues el tratamiento de datos complejos también forma parte del desarrollo del proyecto. 
+El dataset contiene información de pacientes, incluyendo características demográficas, condiciones médicas previas, datos de tratamientos, diagnósticos, medicación y resultados de exámenes médicos, así como la variable objetivo que indica si un paciente fue reingresado antes de 30 días, después o no lo fue.
+
+Estos datos, con los que estamos trabajando en este proyecto, no son de la mejor calidad, pues se incluyen valores faltantes, características irrelevantes y datos inconsistentes. Además, incluye tanto valores numéricos como categóricos. Esto es así pues el tratamiento de datos complejos también forma parte del desarrollo del proyecto. 
 ## Estructura
 
 `readmpred.ipynb`
@@ -33,7 +35,7 @@ Se entrenan y comparan los siguientes modelos:
     - **Random Forest**.
     - **Decision Trees**.
 
-Cada sección sigue un enfoque estructurado para asegurar una correcta preparación, análisis y modelado de los datos, con el objetivo final de predecir los reingresos de pacientes.
+
 
 
  
