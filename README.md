@@ -1,6 +1,8 @@
 # readmission-predictor
 
-Este proyecto tiene como objetivo predecir si un paciente diabético, al que se le da el alta hospitalaria, será reingresado en el futuro. Utilizando técnicas de machine learning, el modelo analiza datos históricos de pacientes para hacer predicciones sobre su probabilidad de reingreso. Así, se permite mejorar la atención que reciben los pacientes una vez que ingresan por primera vez, evitando altas erróneas, optimizando recursos hospitalarios.
+## Descripción 
+
+Tiene como objetivo predecir si un paciente diabético, al que se le da el alta hospitalaria, será reingresado en el futuro. Utilizando técnicas de machine learning, el modelo analiza datos históricos de pacientes para hacer predicciones sobre su probabilidad de reingreso. Así, se permite mejorar la atención que reciben los pacientes una vez que ingresan por primera vez, evitando altas erróneas, optimizando recursos hospitalarios.
 
 ## Dataset
 
@@ -10,5 +12,21 @@ Los datos con los que estamos trabajando en este proyecto no son de la mejor cal
 
 ## Estructura
 
-readmpred.ipynb
+'readmpred.ipynb' 
 
+En este notebook se desarrolla todo el proyecto. Este consta de lo siguiente:
+
+- Procesamiento de los datos:
+  -- Tratamiento de datos faltantes, conversión de datos categóricos a numéricos, representaciones one-hot.
+
+- Selección de características mediante dos métodos:
+  -- Mediante visualización gráfica: boxplots, histogramas, correlation matrix, correlación con la variable respuesta.
+  -- Métodos de envoltura (RFE)
+
+- Entrenamiento y elección del mejor modelo de entre los siguientes:
+
+ -- Logistic Regression Multinomial
+ -- Random Forest
+ -- Decision Trees
+
+ 
