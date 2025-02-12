@@ -36,6 +36,11 @@ Se entrenan y comparan los siguientes modelos:
     - **Decision Trees**.
 
 
+## Contacto
+
+daviddelgadobejarano@gmail.com 
+
+[Portfolio](https://daviddb11.github.io/)
 
 
  
